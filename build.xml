@@ -104,10 +104,9 @@ Let's go!
         </java>
     </target>
 
-    <target name="resolve">
+    <target name="resolve" > <!--relit avec ivy.xml-->
         <ivy:resolve/>
             <ivy:cachepath pathid="lib.path.id"/>
-        <!--</ivy:resolve>-->
     </target>
 
 	<!-- ================================= 
